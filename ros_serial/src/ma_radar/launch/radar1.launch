@@ -1,0 +1,5 @@
+<launch>
+
+    <!-- Load parameters -->
+    <node name="msg_pub" pkg="ma_radar" type="MA" output="screen"/>
+</launch>

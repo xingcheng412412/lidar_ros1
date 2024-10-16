@@ -1,0 +1,6 @@
+<launch>
+
+    <!-- Load parameters -->
+    <rosparam file="$(find ma_radar)/config/serial_config.yaml"/>
+    <node name="msg_pub" pkg="ma_radar" type="ma" output="screen"/>
+</launch>
